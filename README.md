@@ -1,4 +1,9 @@
+[TOC]
+
 # Markdown数学公式语法
+
+**Typora** 中需要输入`$$` 然后按 `回车`，把相应语法输入在公式区域内。
+
 
 ## 行内与独行
 
@@ -169,7 +174,9 @@
 
 # 画矩阵需要用到特殊的语法
 
+
 （1）画普通矩阵，不带括号的
+
  ![\begin{matrix} a & b & c & d & e\\ f & g & h & i & j \\ k & l & m & n & o \\ p & q & r & s & t \end{matrix}](https://math.jianshu.com/math?formula=%5Cbegin%7Bmatrix%7D%20a%20%26%20b%20%26%20c%20%26%20d%20%26%20e%5C%5C%20f%20%26%20g%20%26%20h%20%26%20i%20%26%20j%20%5C%5C%20k%20%26%20l%20%26%20m%20%26%20n%20%26%20o%20%5C%5C%20p%20%26%20q%20%26%20r%20%26%20s%20%26%20t%20%5Cend%7Bmatrix%7D)
 
 
@@ -179,6 +186,7 @@
 ```
 
 （2）画带中括号的矩阵
+
  ![\left[ \begin{matrix} a & b & c & d & e\\ f & g & h & i & j \\ k & l & m & n & o \\ p & q & r & s & t \end{matrix} \right]](https://math.jianshu.com/math?formula=%5Cleft%5B%20%5Cbegin%7Bmatrix%7D%20a%20%26%20b%20%26%20c%20%26%20d%20%26%20e%5C%5C%20f%20%26%20g%20%26%20h%20%26%20i%20%26%20j%20%5C%5C%20k%20%26%20l%20%26%20m%20%26%20n%20%26%20o%20%5C%5C%20p%20%26%20q%20%26%20r%20%26%20s%20%26%20t%20%5Cend%7Bmatrix%7D%20%5Cright%5D)
 
 
@@ -188,6 +196,7 @@
 ```
 
 (3) 画带大括号的矩阵
+
  ![\left\{ \begin{matrix} a & b & c & d & e\\ f & g & h & i & j \\ k & l & m & n & o \\ p & q & r & s & t \end{matrix} \right\}](https://math.jianshu.com/math?formula=%5Cleft%5C%7B%20%5Cbegin%7Bmatrix%7D%20a%20%26%20b%20%26%20c%20%26%20d%20%26%20e%5C%5C%20f%20%26%20g%20%26%20h%20%26%20i%20%26%20j%20%5C%5C%20k%20%26%20l%20%26%20m%20%26%20n%20%26%20o%20%5C%5C%20p%20%26%20q%20%26%20r%20%26%20s%20%26%20t%20%5Cend%7Bmatrix%7D%20%5Cright%5C%7D)
 
 
@@ -197,6 +206,7 @@
 ```
 
 （4）矩阵前加个参数
+
  ![A= \left\{ \begin{matrix} a & b & c & d & e\\ f & g & h & i & j \\ k & l & m & n & o \\ p & q & r & s & t \end{matrix} \right\}](https://math.jianshu.com/math?formula=A%3D%20%5Cleft%5C%7B%20%5Cbegin%7Bmatrix%7D%20a%20%26%20b%20%26%20c%20%26%20d%20%26%20e%5C%5C%20f%20%26%20g%20%26%20h%20%26%20i%20%26%20j%20%5C%5C%20k%20%26%20l%20%26%20m%20%26%20n%20%26%20o%20%5C%5C%20p%20%26%20q%20%26%20r%20%26%20s%20%26%20t%20%5Cend%7Bmatrix%7D%20%5Cright%5C%7D)
 
 
@@ -221,6 +231,7 @@ A= \left\{ \begin{matrix} a & b & \cdots & e\\ f & g & \cdots & j \\ \vdots & \v
 （6）矩阵中间加根横线
  //array必须为array
  //{cccc|c}中的c表示矩阵元素，可以控制|的位置
+ 
  ![A= \left\{ \begin{array}{cccc|c} a & b & c & d & e\\ f & g & h & i & j \\ k & l & m & n & o \\ p & q & r & s & t \end{array} \right\}](https://math.jianshu.com/math?formula=A%3D%20%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Bcccc%7Cc%7D%20a%20%26%20b%20%26%20c%20%26%20d%20%26%20e%5C%5C%20f%20%26%20g%20%26%20h%20%26%20i%20%26%20j%20%5C%5C%20k%20%26%20l%20%26%20m%20%26%20n%20%26%20o%20%5C%5C%20p%20%26%20q%20%26%20r%20%26%20s%20%26%20t%20%5Cend%7Barray%7D%20%5Cright%5C%7D)
 
 
